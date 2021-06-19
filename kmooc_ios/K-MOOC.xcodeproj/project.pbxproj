@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D05E7A267DA90700015AD8 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D05E79267DA90700015AD8 /* String+.swift */; };
+		45D05E8F267DB92900015AD8 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D05E8E267DB92900015AD8 /* UIImageView+.swift */; };
+		45D05E9C267DBC7300015AD8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D05E9B267DBC7300015AD8 /* Date+.swift */; };
+		A1D55A04259B20430049079F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A03259B20430049079F /* AppDelegate.swift */; };
+		A1D55A06259B20430049079F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A05259B20430049079F /* SceneDelegate.swift */; };
+		A1D55A0B259B20430049079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D55A09259B20430049079F /* Main.storyboard */; };
+		A1D55A0D259B20440049079F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D55A0C259B20440049079F /* Assets.xcassets */; };
+		A1D55A10259B20440049079F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D55A0E259B20440049079F /* LaunchScreen.storyboard */; };
+		A1D55A1B259B20440049079F /* K_MOOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A1A259B20440049079F /* K_MOOCTests.swift */; };
+		A1D55A26259B20440049079F /* K_MOOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A25259B20440049079F /* K_MOOCUITests.swift */; };
+		A1D55A4F259B24200049079F /* KmoocListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A4E259B24200049079F /* KmoocListViewController.swift */; };
+		A1D55A54259B24760049079F /* KmoocDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A53259B24760049079F /* KmoocDetailViewController.swift */; };
+		A1D55A5F259B45640049079F /* KmoocListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A5E259B45640049079F /* KmoocListItemTableViewCell.swift */; };
+		A1D55A64259B468D0049079F /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A63259B468D0049079F /* Lecture.swift */; };
+		A1D55A69259B48BB0049079F /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A68259B48BB0049079F /* HttpClient.swift */; };
+		A1D55A6E259B4BBE0049079F /* KmoocListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A6D259B4BBE0049079F /* KmoocListViewModel.swift */; };
+		A1D55A73259B4C4F0049079F /* KmoocDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A72259B4C4F0049079F /* KmoocDetailViewModel.swift */; };
+		A1D55A78259B4CE70049079F /* LectureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A77259B4CE70049079F /* LectureList.swift */; };
+		A1D55A7D259B4EE20049079F /* KmoocRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A7C259B4EE20049079F /* KmoocRepository.swift */; };
+		A1D55A82259B78FC0049079F /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A81259B78FC0049079F /* DateUtil.swift */; };
+		A1D55A87259B7EA70049079F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D55A86259B7EA70049079F /* ImageLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D55A17259B20440049079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D559F8259B20430049079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D559FF259B20430049079F;
+			remoteInfo = "K-MOOC";
+		};
+		A1D55A22259B20440049079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D559F8259B20430049079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D559FF259B20430049079F;
+			remoteInfo = "K-MOOC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45D05E79267DA90700015AD8 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		45D05E8E267DB92900015AD8 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		45D05E9B267DBC7300015AD8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		A1D55A00259B20430049079F /* K-MOOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-MOOC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D55A03259B20430049079F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1D55A05259B20430049079F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1D55A0A259B20430049079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1D55A0C259B20440049079F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D55A0F259B20440049079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D55A11259B20440049079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D55A16259B20440049079F /* K-MOOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-MOOCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D55A1A259B20440049079F /* K_MOOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_MOOCTests.swift; sourceTree = "<group>"; };
+		A1D55A1C259B20440049079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D55A21259B20440049079F /* K-MOOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-MOOCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D55A25259B20440049079F /* K_MOOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_MOOCUITests.swift; sourceTree = "<group>"; };
+		A1D55A27259B20440049079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D55A4E259B24200049079F /* KmoocListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocListViewController.swift; sourceTree = "<group>"; };
+		A1D55A53259B24760049079F /* KmoocDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocDetailViewController.swift; sourceTree = "<group>"; };
+		A1D55A5E259B45640049079F /* KmoocListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocListItemTableViewCell.swift; sourceTree = "<group>"; };
+		A1D55A63259B468D0049079F /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		A1D55A68259B48BB0049079F /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		A1D55A6D259B4BBE0049079F /* KmoocListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocListViewModel.swift; sourceTree = "<group>"; };
+		A1D55A72259B4C4F0049079F /* KmoocDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocDetailViewModel.swift; sourceTree = "<group>"; };
+		A1D55A77259B4CE70049079F /* LectureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureList.swift; sourceTree = "<group>"; };
+		A1D55A7C259B4EE20049079F /* KmoocRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmoocRepository.swift; sourceTree = "<group>"; };
+		A1D55A81259B78FC0049079F /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		A1D55A86259B7EA70049079F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D559FD259B20430049079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A13259B20440049079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A1E259B20440049079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D05E78267DA8EC00015AD8 /* extention */ = {
+			isa = PBXGroup;
+			children = (
+				45D05E79267DA90700015AD8 /* String+.swift */,
+				45D05E8E267DB92900015AD8 /* UIImageView+.swift */,
+				45D05E9B267DBC7300015AD8 /* Date+.swift */,
+			);
+			path = extention;
+			sourceTree = "<group>";
+		};
+		A1D559F7259B20430049079F = {
+			isa = PBXGroup;
+			children = (
+				A1D55A02259B20430049079F /* K-MOOC */,
+				A1D55A19259B20440049079F /* K-MOOCTests */,
+				A1D55A24259B20440049079F /* K-MOOCUITests */,
+				A1D55A01259B20430049079F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D55A01259B20430049079F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A00259B20430049079F /* K-MOOC.app */,
+				A1D55A16259B20440049079F /* K-MOOCTests.xctest */,
+				A1D55A21259B20440049079F /* K-MOOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D55A02259B20430049079F /* K-MOOC */ = {
+			isa = PBXGroup;
+			children = (
+				45D05E78267DA8EC00015AD8 /* extention */,
+				A1D55A43259B22D30049079F /* viewControllers */,
+				A1D55A4D259B23D80049079F /* viewmodels */,
+				A1D55A4B259B23B70049079F /* repositories */,
+				A1D55A4A259B239A0049079F /* network */,
+				A1D55A49259B238B0049079F /* models */,
+				A1D55A4C259B23C30049079F /* utilities */,
+				A1D55A42259B22A50049079F /* resources */,
+				A1D55A03259B20430049079F /* AppDelegate.swift */,
+				A1D55A05259B20430049079F /* SceneDelegate.swift */,
+				A1D55A11259B20440049079F /* Info.plist */,
+			);
+			path = "K-MOOC";
+			sourceTree = "<group>";
+		};
+		A1D55A19259B20440049079F /* K-MOOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A1A259B20440049079F /* K_MOOCTests.swift */,
+				A1D55A1C259B20440049079F /* Info.plist */,
+			);
+			path = "K-MOOCTests";
+			sourceTree = "<group>";
+		};
+		A1D55A24259B20440049079F /* K-MOOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A25259B20440049079F /* K_MOOCUITests.swift */,
+				A1D55A27259B20440049079F /* Info.plist */,
+			);
+			path = "K-MOOCUITests";
+			sourceTree = "<group>";
+		};
+		A1D55A42259B22A50049079F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A0C259B20440049079F /* Assets.xcassets */,
+				A1D55A0E259B20440049079F /* LaunchScreen.storyboard */,
+				A1D55A09259B20430049079F /* Main.storyboard */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		A1D55A43259B22D30049079F /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A44259B22FC0049079F /* list */,
+				A1D55A45259B23090049079F /* detail */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		A1D55A44259B22FC0049079F /* list */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A4E259B24200049079F /* KmoocListViewController.swift */,
+				A1D55A5E259B45640049079F /* KmoocListItemTableViewCell.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		A1D55A45259B23090049079F /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A53259B24760049079F /* KmoocDetailViewController.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		A1D55A49259B238B0049079F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A63259B468D0049079F /* Lecture.swift */,
+				A1D55A77259B4CE70049079F /* LectureList.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A1D55A4A259B239A0049079F /* network */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A68259B48BB0049079F /* HttpClient.swift */,
+				A1D55A86259B7EA70049079F /* ImageLoader.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		A1D55A4B259B23B70049079F /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A7C259B4EE20049079F /* KmoocRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		A1D55A4C259B23C30049079F /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A81259B78FC0049079F /* DateUtil.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		A1D55A4D259B23D80049079F /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				A1D55A6D259B4BBE0049079F /* KmoocListViewModel.swift */,
+				A1D55A72259B4C4F0049079F /* KmoocDetailViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D559FF259B20430049079F /* K-MOOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D55A2A259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOC" */;
+			buildPhases = (
+				A1D559FC259B20430049079F /* Sources */,
+				A1D559FD259B20430049079F /* Frameworks */,
+				A1D559FE259B20430049079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "K-MOOC";
+			productName = "K-MOOC";
+			productReference = A1D55A00259B20430049079F /* K-MOOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D55A15259B20440049079F /* K-MOOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D55A2D259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOCTests" */;
+			buildPhases = (
+				A1D55A12259B20440049079F /* Sources */,
+				A1D55A13259B20440049079F /* Frameworks */,
+				A1D55A14259B20440049079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D55A18259B20440049079F /* PBXTargetDependency */,
+			);
+			name = "K-MOOCTests";
+			productName = "K-MOOCTests";
+			productReference = A1D55A16259B20440049079F /* K-MOOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D55A20259B20440049079F /* K-MOOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D55A30259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOCUITests" */;
+			buildPhases = (
+				A1D55A1D259B20440049079F /* Sources */,
+				A1D55A1E259B20440049079F /* Frameworks */,
+				A1D55A1F259B20440049079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D55A23259B20440049079F /* PBXTargetDependency */,
+			);
+			name = "K-MOOCUITests";
+			productName = "K-MOOCUITests";
+			productReference = A1D55A21259B20440049079F /* K-MOOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D559F8259B20430049079F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A1D559FF259B20430049079F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A1D55A15259B20440049079F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A1D559FF259B20430049079F;
+					};
+					A1D55A20259B20440049079F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A1D559FF259B20430049079F;
+					};
+				};
+			};
+			buildConfigurationList = A1D559FB259B20430049079F /* Build configuration list for PBXProject "K-MOOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D559F7259B20430049079F;
+			productRefGroup = A1D55A01259B20430049079F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D559FF259B20430049079F /* K-MOOC */,
+				A1D55A15259B20440049079F /* K-MOOCTests */,
+				A1D55A20259B20440049079F /* K-MOOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D559FE259B20430049079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D55A10259B20440049079F /* LaunchScreen.storyboard in Resources */,
+				A1D55A0D259B20440049079F /* Assets.xcassets in Resources */,
+				A1D55A0B259B20430049079F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A14259B20440049079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A1F259B20440049079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D559FC259B20430049079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D55A73259B4C4F0049079F /* KmoocDetailViewModel.swift in Sources */,
+				A1D55A64259B468D0049079F /* Lecture.swift in Sources */,
+				A1D55A7D259B4EE20049079F /* KmoocRepository.swift in Sources */,
+				45D05E8F267DB92900015AD8 /* UIImageView+.swift in Sources */,
+				A1D55A4F259B24200049079F /* KmoocListViewController.swift in Sources */,
+				A1D55A54259B24760049079F /* KmoocDetailViewController.swift in Sources */,
+				A1D55A78259B4CE70049079F /* LectureList.swift in Sources */,
+				A1D55A5F259B45640049079F /* KmoocListItemTableViewCell.swift in Sources */,
+				A1D55A6E259B4BBE0049079F /* KmoocListViewModel.swift in Sources */,
+				A1D55A69259B48BB0049079F /* HttpClient.swift in Sources */,
+				A1D55A82259B78FC0049079F /* DateUtil.swift in Sources */,
+				45D05E9C267DBC7300015AD8 /* Date+.swift in Sources */,
+				A1D55A04259B20430049079F /* AppDelegate.swift in Sources */,
+				A1D55A06259B20430049079F /* SceneDelegate.swift in Sources */,
+				45D05E7A267DA90700015AD8 /* String+.swift in Sources */,
+				A1D55A87259B7EA70049079F /* ImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A12259B20440049079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D55A1B259B20440049079F /* K_MOOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D55A1D259B20440049079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D55A26259B20440049079F /* K_MOOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D55A18259B20440049079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D559FF259B20430049079F /* K-MOOC */;
+			targetProxy = A1D55A17259B20440049079F /* PBXContainerItemProxy */;
+		};
+		A1D55A23259B20440049079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D559FF259B20430049079F /* K-MOOC */;
+			targetProxy = A1D55A22259B20440049079F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D55A09259B20430049079F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D55A0A259B20430049079F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D55A0E259B20440049079F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D55A0F259B20440049079F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D55A28259B20440049079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1D55A29259B20440049079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D55A2B259B20440049079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programmers.kmooc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1D55A2C259B20440049079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.programmers.kmooc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A1D55A2E259B20440049079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmers.kmooc.K-MOOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/K-MOOC.app/K-MOOC";
+			};
+			name = Debug;
+		};
+		A1D55A2F259B20440049079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmers.kmooc.K-MOOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/K-MOOC.app/K-MOOC";
+			};
+			name = Release;
+		};
+		A1D55A31259B20440049079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmers.kmooc.K-MOOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "K-MOOC";
+			};
+			name = Debug;
+		};
+		A1D55A32259B20440049079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "K-MOOCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programmers.kmooc.K-MOOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "K-MOOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D559FB259B20430049079F /* Build configuration list for PBXProject "K-MOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D55A28259B20440049079F /* Debug */,
+				A1D55A29259B20440049079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D55A2A259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D55A2B259B20440049079F /* Debug */,
+				A1D55A2C259B20440049079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D55A2D259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D55A2E259B20440049079F /* Debug */,
+				A1D55A2F259B20440049079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D55A30259B20440049079F /* Build configuration list for PBXNativeTarget "K-MOOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D55A31259B20440049079F /* Debug */,
+				A1D55A32259B20440049079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D559F8259B20430049079F /* Project object */;
+}
